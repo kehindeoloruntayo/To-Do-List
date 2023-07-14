@@ -1,0 +1,105 @@
+.container {
+  margin-top: 30px;
+  width: 900px;
+}
+
+.background img {
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+
+.input-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: green;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.deleteButton {
+  background-color: green;
+  border-style: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+#task li {
+  margin-bottom: 10px;
+}
+
+#info {
+  display: none;
+  background-color: gray;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#info h2 {
+  margin-bottom: 10px;
+}
+
+#info ul {
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background-color: gray;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+li.completed {
+  text-decoration: line-through;
+  background-color: #e0e0e0;
+}
+
+.row-task {
+  gap: 60px
+}
+
+.List {
+  margin-top: 20px;
+}
