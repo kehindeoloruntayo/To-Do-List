@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.4.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="icon" href="./img/todo.jpeg" />
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <div class="background">
+        <img src="./img/pexels-freestocksorg-131979.jpg" alt="background">
+    </div>
+    <div class="container">
+        <div class="row row-task mt-5">
+            <div class="col">
+                <div class="input-section">
+                    <form id="formOne" class="contact">
+                        <div class="logo">
+                            <h1>To-Do List</h1>
+                            <img src="./img/todo.jpeg" alt="logo">
+                        </div>
+                         <div class="form-group">
+                            <label for="taskInput">Add a task</label>
+                            <input type="text" class="form-control" id="task" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Add a date</label>
+                            <input type="date" class="form-control" id="date">
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Add a time</label>
+                            <input type="time" class="form-control" id="time">
+                        </div>
+                        <button type="submit" class="btn" id="addBtn">Add</button>
+                    </form>
+                    <div class="List">
+                        <h2>To Do List:</h2>
+                        <ul id="task">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div id="info">
+                    <h2>Task information</h2>
+                    <ul>
+                        <li>Task: <span class="task"></span></li>
+                        <li>Date: <span class="date"></span></li>
+                        <li>Time: <span class="time"></span></li>
+                    </ul>
+                    <div id="buttons">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
